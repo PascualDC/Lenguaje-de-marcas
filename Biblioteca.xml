@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Biblioteca [
+    <!ELEMENT Biblioteca (libros)+>
+    <!ELEMENT libros (nombre, autor, fecha?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)*>
+    <!ELEMENT fecha (dia, mes, anio)?>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+]>
+
+<Biblioteca>
+    <libros>
+        <nombre>
+            --
+        </nombre>
+        <autor>
+            --
+        </autor>
+        <fecha>
+            <dia>
+                --
+            </dia>
+            <mes>
+                --
+            </mes>
+            <anio>
+                --
+            </anio>
+        </fecha>
+    </libros>
+    <libros>
+        <nombre>
+            --
+        </nombre>
+        <autor>
+            --
+        </autor>
+        <fecha></fecha>
+    </libros>
+</Biblioteca>

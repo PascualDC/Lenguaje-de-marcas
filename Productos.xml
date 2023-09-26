@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalogo [
+    <!ELEMENT catalogo (producto)*>
+    <!ELEMENT producto (nombre,descripción, precio, caracteristica)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripción (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT caracteristicas (caracteristica)+>
+    <!ELEMENT caracteristica (#PCDATA)>
+]>
+    <catalogo>
+        <producto>
+            <nombre nombre="Producto 1">
+                Teclado
+            </nombre>
+            <descripción nombre="Descripción 1">
+                Teclado magnifico para gamers, ultra cómodo y con colorines.
+            </descripción>
+            <precio nombre="80">
+                80
+            </precio>
+            <caracteristica nombre="tamaño">
+                11,2 centímetros de largo x 1,8 centímetros de ancho.
+            </caracteristica>
+        </producto>
+
+        <producto>
+            <nombre nombre="Producto 2">
+                Raton
+            </nombre>
+            <descripción nombre="Descripción 2">
+                Raton gamer peso pluma con un agarre magnifico.
+            </descripción>
+            <precio nombre="90">
+                90
+            </precio>
+            <caracteristica nombre="tamaño">
+                12 cm de largo.
+            </caracteristica>
+        </producto>
+
+    </catalogo>

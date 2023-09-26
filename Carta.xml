@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carta [
+    <!ELEMENT carta (platos)+>
+    <!ELEMENT platos (nombre, descripcion, alergenos*, ingredientes+, vegano?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT alergenos (#PCDATA)>
+    <!ELEMENT ingredientes (nombre, cantidad, unidad)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT unidad (#PCDATA)>
+    <!ELEMENT vegano EMPTY>
+]>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<carta>
+    <platos>
+        <nombre></nombre>
+        <descripcion></descripcion>
+        <alergenos></alergenos>
+        <ingredientes>
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <unidad></unidad>
+        </ingredientes>
+        <vegano></vegano>
+    </platos>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <platos>
+        <nombre></nombre>
+        <descripcion></descripcion>
+        <alergenos></alergenos>
+        <ingredientes>
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <unidad></unidad>
+        </ingredientes>
+    </platos>
+</carta>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - -->

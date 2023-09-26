@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <ciudades>
+        <nombre>
+            <persona>
+                Nueva Delhi
+            </persona>
+            <persona>
+                Lisboa
+            </persona>
+            <persona>
+                El Cairo
+            </persona>
+        </nombre>
+        <pais>
+            <localizacion>
+                India
+            </localizacion>
+            <localizacion>
+                Portugal
+            </localizacion>
+            <localizacion>
+                Egipto
+            </localizacion>
+        </pais>
+        <Continente>
+            <localizacion>
+                Ásia
+            </localizacion>
+            <localizacion>
+                Europa
+            </localizacion>
+            <localizacion>
+                África
+            </localizacion>
+        </Continente>
+    </ciudades>
